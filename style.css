@@ -42,12 +42,12 @@ nav {
     margin: 0 5px;
 }
 
-a.nav-link {
+a {
     font-size: var(--font-size-100);
     text-decoration: none;
     color: var(--link-color);
 }
-a.nav-link:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -72,7 +72,6 @@ a.nav-link:hover {
 /* MAIN CONTENT DIV*/
 main {
     flex: 1;
-    margin-top: -70px;
 
     display: flex;
     flex-direction: column;
